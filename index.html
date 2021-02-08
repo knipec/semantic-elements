@@ -1,0 +1,109 @@
+<!-- Validate html at https://validator.w3.org/nu/#textarea -->
+
+<!--
+Element types:
+1. html
+2. head
+3. body
+4. header
+5. h1
+6. nav
+7. h5
+8. section
+9. h2
+10. article
+11. h3
+12. p
+13. ul / li
+14. h4
+15. ol / li
+16. a
+17. img
+18. video
+19. iframe
+20. footer
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cat appreciation page</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Cat Appreciation Page</h1>
+      <nav>
+        <a href="#home">I don't</a> |
+        <a href="#photos">Understand</a> |
+        <a href="#description">Internal links</a> |
+        <a href="#more">Yet</a> |
+      </nav>
+      <h5>More info on cats</h5>
+        <nav>
+          <a href="https://en.wikipedia.org/wiki/Cat">Wikipeda</a> |
+          <a href="https://www.loc.gov/free-to-use/cats/">Library of Congress</a>
+        </nav>
+    </header>
+
+    <section>
+      <h2>Section</h2>
+      <header></header>
+      <article>
+        <header>
+          <h3>Let me tell you about cats</h3>
+        </header>
+        <p>Cats are neat</p>
+        Here are reasons I like cats:
+        <ul>
+          <li>They are cute</li>
+          <li>They are soft, usually</li>
+          <li>Even when they're not soft they're sweet</li>
+          <li>Even when they're not sweet they're interesting</li>
+          <li>Even when they're not interesting they're cats</li>
+        </ul>
+        <aside>They are also evil and this is another reason I love them
+        </aside>
+        <footer>Conclusion: Cats are great</footer>
+      </article>
+      <br>
+      <article>
+        <header>
+          <h4>Here is some media about cats</h4>
+        </header>
+          <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Cats_(musical)">CATS the musical</a></li>
+            <li><a href="https://www.polygon.com/2019/7/18/20696129/cats-2019-musical-trailer-explained">CATS the musical (new)</a></li>
+            <li><a href="https://www.youtube.com/watch?v=sP4NMoJcFd4">A remixed version of this person's online dating video about how they love cats</a></li>
+            <li>Here's a picture of a cat<br>
+              <img width="420" src="cat-sleeping-image.jpg" alt="Orange cat sleeping">
+            </li>
+            <li>Here's a video I downloaded<br>
+              <video width="420" controls poster="kittens-video-still.png">
+                <source src="kittens-video.mp4" type="video/mp4">
+              I think if you can see this, video is not supported on your browser
+              </video>
+            </li>
+            <li>Here's a YouTube cat video<br>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/uHKfrz65KSU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+          </ol>
+      </article>
+
+      <article>
+        <header>
+          <h5>Can I draw a cat?</h5>
+        </header>
+        <canvas id="canvas" width="300" height="300">
+          <script>
+            <!-- Do nothing -->
+          </script>
+        </canvas>
+        No, I can't.
+      </article>
+    </section>
+    <footer><br>I accidentally watched several videos from CATS during this assignment</footer>
+
+  </body>
+</html>

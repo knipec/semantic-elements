@@ -1,0 +1,1 @@
+2. Semantic elements are HTML elements whose meaning is clear to the developer and the browser. A few examples are img, canvas, body, article, etc. They are used to help with accessibility, searchability, readability.
