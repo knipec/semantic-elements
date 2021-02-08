@@ -1,0 +1,11 @@
+Lesson 1 notes:
+
+Git
+- mkdir <name>
+- git init
+- git add <file> 
+- git commit -m "<message>"
+
+- New repository in GitHub with same name
+- git remote add origin https://github.com/knipec/first-repo.git
+- git push origin main
